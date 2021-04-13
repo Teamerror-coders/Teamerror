@@ -1,9 +1,17 @@
 *{
     box-sizing: border-box;
-    
+    transition: ease all 0.5s;
+}
+html
+{
+    scroll-behavior: smooth;
 }
 body{
     margin: 0%;
+    font-size: 14px;
+    line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
     header h1
@@ -13,15 +21,102 @@ body{
     font-size: 50px;
     font-style: bold;
     color: rgb(245, 247, 248);
-}
+    }
 header
 {
     padding: 40px;
     background-color: rgb(4, 6, 97);
 }
 
-nav {
+nav  
+{
     text-align: center;
-    background-color: rgb(219, 219, 236);
+    background-color: rgb(251, 245, 186);
     overflow: hidden;
+}
+
+nav a
+{
+    color: rgb(19, 18, 14);
+    padding: 20px;
+    float:left;
+    text-decoration:none !important;
+    outline: none !important;
+    transition: all .3s ease-in-out;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 15px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: black;
+     margin: 0
+}
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+
+main
+{
+    background-color: floralwhite;
+    text-align: center;
+    
+}
+footer {
+    width: 100%;
+float: left;
+background-color: #303330;
+height: auto;
+margin-top: 90px;
+padding-bottom: 90px;
+}
+footer a
+{
+    color: blanchedalmond;
+    padding: 10px;
+    font-size: 15px;
+}
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+section
+{
+
 }
