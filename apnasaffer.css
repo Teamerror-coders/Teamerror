@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    header h1
+    {
+        background-origin: padding-box;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(245, 247, 248);
+}
+header
+{
+    padding: 40px;
+    background-color: rgb(4, 6, 97);
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(219, 219, 236);
+    overflow: hidden;
+}
