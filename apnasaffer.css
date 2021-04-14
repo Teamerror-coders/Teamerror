@@ -25,16 +25,17 @@ header
 {
     padding: 80px 0;
     background-color:none;
-    width: auto;
+    width: 100%;
 	float: left;
 	background-image: url('jrD39m.png');
 	height: auto;
-	background-size: auto;
+	background-size: 100%;
 	background-repeat: no-repeat;
     border: black;
     border-color: black;
     border-style:solid;
     box-sizing: border-box;
+	border-width: 100%;
 }
 
 nav  
