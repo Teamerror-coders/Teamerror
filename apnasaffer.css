@@ -28,7 +28,7 @@ header
     width: 100%;
 	float: left;
 	background-image: url('jrD39m.png');
-	height: 200%;
+	height:auto;
 	background-size: 100%;
 	background-repeat: no-repeat;
     border: black;
