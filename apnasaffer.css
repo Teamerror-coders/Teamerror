@@ -25,11 +25,11 @@ header
 {
     padding: 80px 0;
     background-color:none;
-    width: 100%;
+    width: auto;
 	float: left;
 	background-image: url('jrD39m.png');
-	height:auto;
-	background-size: 100%;
+	height: auto;
+	background-size: auto;
 	background-repeat: no-repeat;
     border: black;
     border-color: black;
