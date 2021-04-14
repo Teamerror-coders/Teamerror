@@ -2,10 +2,6 @@
     box-sizing: border-box;
     transition: ease all 0.5s;
 }
-html
-{
-    scroll-behavior: smooth;
-}
 body{
     margin: 0%;
     font-size: 14px;
@@ -30,6 +26,7 @@ header
 	height: 200px;
 }
 html { 
+	scroll-behavior: smooth;
     background: url('jrD39m.png'); 
     background-position: center center;
       background-repeat: no-repeat;
