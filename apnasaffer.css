@@ -16,16 +16,25 @@ body{
 }
     header h1
     {
-        background-origin: padding-box;
-    text-align: center;
+        text-align: left;
     font-size: 50px;
     font-style: bold;
-    color: rgb(245, 247, 248);
+    color: rgb(11, 12, 12);
     }
 header
 {
-    padding: 40px;
-    background-color: rgb(4, 6, 97);
+    padding: 80px 0;
+    background-color:none;
+    width: 100%;
+	float: left;
+	background-image: url(/samsung\ hd\ wallpapers.jpg);
+	height: 200%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    border: black;
+    border-color: black;
+    border-style:solid;
+    box-sizing: border-box;
 }
 
 nav  
