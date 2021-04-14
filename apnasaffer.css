@@ -27,7 +27,7 @@ header
     background-color:none;
     width: 100%;
 	float: left;
-	background-image: url(Teamerror/image/jrD39m.png);
+	<backgroung img src="image/jrD39m.png">;
 	height: 200%;
 	background-size: 100%;
 	background-repeat: no-repeat;
