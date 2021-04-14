@@ -30,7 +30,7 @@ header
 	height: 200px;
 }
 html { 
-    background: url('jrD39m.png') no-repeat center center fixed; 
+    background: url(/jrD39m.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -181,3 +181,4 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
+    
