@@ -1,0 +1,140 @@
+*{
+    transition: ease all 0.5s;
+    margin: 0;
+    padding:0;
+}
+.header
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.514)),url(jrD39m.png);
+    background-size:cover;
+    background-position:center ;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 24%;
+}
+.header h1
+    {
+        font-size: 55px;
+        font-style: bold;
+        padding-top: 200px;
+        padding-bottom: 0px;
+    }
+.header p
+    {
+        margin: 18px 0px;
+        color: cornsilk;
+        text-align: center;
+    }
+.searchbox
+    {
+        width: 90%;
+        max-width: 500px;
+        border-radius: 10px;
+        background:rgb(255, 255, 255);
+        margin: auto;
+        padding: 2px;
+    }
+.form-control
+{
+    border: 0 !important;
+    border-radius: 10 !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-append
+{
+    width: 60px;
+    background:rgb(249, 250, 250);
+    border: 0 !important;
+    padding: 0px 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+}
+select
+{
+        border: 0 !important;
+    border-radius:30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+    
+    width: 100%;
+    border-radius: 30px;
+        background:rgb(255, 255, 255);
+        margin: auto;
+        padding: 2px;
+        color: rgb(8, 8, 8) !important;
+}
+input
+{
+    padding: 0px 25px;
+}
+nav  
+{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+height: auto;
+padding-bottom: 40px;
+cursor: pointer;
+}
+
+nav a
+{   
+    font: inherit,bold,large;
+    font-size: 15px;
+    color: rgb(250, 244, 244);
+    padding: 10px;
+    float:left;
+    text-decoration:none !important;
+    outline: none !important;
+    transition: all .3s ease-in-out;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  footer {
+    width: 100%;
+float: left;
+background-color: #303330;
+height: auto;
+margin-top: 90px;
+padding-bottom: 90px;
+}
+footer a
+{
+    color: blanchedalmond;
+    padding: 10px;
+    font-size: 15px;
+}
+footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.intro
+{
+    padding: 50px 0;
+}
+ 
+h1
+{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.overviewbox
+{   
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 50rem;  
+}
