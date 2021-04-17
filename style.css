@@ -31,26 +31,23 @@
     }
 .searchbox
     {
-        width: 90%;
-        max-width: 500px;
         border-radius: 10px;
         background:rgb(255, 255, 255);
-        margin: auto;
         padding: 2px;
     }
 .form-control
 {
     border: 0 !important;
     border-radius: 10 !important;
-    margin: 2px;
+    margin: 0;
     box-shadow: none !important;
 }
-.input-group-append
+.input-group-append input
 {
-    width: 60px;
-    background:rgb(249, 250, 250);
+    width: 110px;
+    background:rgb(12, 192, 192);
     border: 0 !important;
-    padding: 0px 25px !important;
+    padding: 0px 30px 0px !important;
     border-radius: 30px !important;
     box-shadow: none;
 }
@@ -68,9 +65,10 @@ select
         padding: 2px;
         color: rgb(8, 8, 8) !important;
 }
-input
+.searchbox input
 {
-    padding: 0px 25px;
+    padding: auto;
+    width: 100%;
 }
 nav  
 {
@@ -118,6 +116,7 @@ footer a:hover {
 .intro
 {
     padding: 50px 0;
+    background: rgba(245, 245, 245, 0.849);
 }
  
 h1
@@ -125,11 +124,24 @@ h1
     padding-bottom: 30px;
     text-align: center;
 }
+.overviewbox p
+{
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+}
 .overviewbox
 {   
     position: relative;
     align-content: center;
     text-align: center;
+    
+}
+.overviewbox h3
+{
+    color: rgb(11, 3, 82);
+    font-style: inherit;
 }
 h2
 {
@@ -137,4 +149,91 @@ h2
     font-size: 10px;
     font-style: normal;
     font-weight: 50rem;  
+}
+.offer
+{
+    height: 500px;
+    background-image: url(./pexels-melissa-698907.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%;
+}
+.offerhighlights
+{
+    padding: 70px;
+    background: #50505080;
+    text-align: center;
+    
+}
+.offerhighlights p{
+    font-size: 23px;
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.offerhighlights h2
+{
+    color: white;
+    font-style: bold;
+    text-align: center;
+    align-content: center;
+}
+.menubar{
+    position:auto;
+    background: url(./Simple-Blue-White-Background-Image.jpg);
+    align-content: center;
+    text-align: center;
+    float: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .menubar a
+{
+    color: rgb(2, 9, 70);
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+  }
+  .menubar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menubar input {
+    padding: 6px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #272928;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 3px 1px;
+    cursor: pointer;
+  }
+  .contactform
+{   align-content: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding-top:100px ;
+}
+.header h3
+{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
