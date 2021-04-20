@@ -244,7 +244,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     height: 100%;
     background-color: rgba(3, 2, 71, 0.774);
-    background: url('pexels-elly-fairytale-3810903.jpg');
+    background: url(./pexels-elly-fairytale-3810903.jpg);
     background-size: 60% 200px;
     background-position: center;
     background-size: cover;
